@@ -55,4 +55,22 @@ function render() {
         newDiv.append('<p>' + employee.annualSalary + '</p>');
         newDiv.append('<button class="deleteBtn">Fire</button>');
     }
+    
+    monthlySalary()
+}
+
+function monthlySalary() {
+
+    let totalSalary = 0;
+    let monthlySalary = 0;
+
+    for (let i = 0; i < employeeArray.length; i++ ){
+        let employee = employeeArray[i];
+        let monthlySalary = employee.annualSalary / 12;
+        totalSalary += monthlySalary;
+        monthlySalary = parseInt(totalSalary);
+
+    }
+
+    $('#totalMonthly').text('Total Monthly Budget: $'+ totalSalary);
 }
