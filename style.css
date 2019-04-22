@@ -1,5 +1,5 @@
 body {
-    background-color: #F2F2F2;
+    background-color: wheat;
 }
 
 .red {
@@ -8,7 +8,7 @@ body {
 
 .header {
     background-color: olivedrab;
-    color: #F2F2F2;
+    color: wheat;
     text-align: center;
     padding: 30px;
     margin: 0px;
@@ -16,7 +16,7 @@ body {
 
 .submitBtn {
     background-color: olivedrab;
-    color: #F2F2F2;
+    color: wheat;
     border-radius: 12px;
     display: inline;
     font-size: 16px;
